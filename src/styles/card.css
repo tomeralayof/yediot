@@ -69,8 +69,8 @@
     position: absolute;
     top: 35%;
     position: absolute;
-    left: 60%;
-    transform: translateX(-60%);
+    left: 50%;
+    transform: translateX(-50%);
   }
   .card {
     background-color: rgb(245, 135, 135);
