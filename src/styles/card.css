@@ -67,7 +67,7 @@
 @media (max-width: 900px) {
   .card-container {
     position: absolute;
-    top: 40%;
+    top: 35%;
     position: absolute;
     left: 60%;
     transform: translateX(-60%);
