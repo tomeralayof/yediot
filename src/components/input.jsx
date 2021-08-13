@@ -30,24 +30,6 @@ const Input = ({ setBackGround, setCategory, api }) => {
         </div>
       </div>
     </div>
-
-    /*
-
-    <div className="input-container">
-      <div className="input">
-        <p>צבע רקע - שם קטגוריה</p>
-
-        <select onClick={(e) => handleOption(e)} name="cars" id="cars">
-          {api.map((color, idx) => {
-            return <Option key={idx} color={color} />;
-          })}
-        </select>
-
-        <p>שם קטגוריה</p>
-        <input onChange={(e) => handleChange(e)} type="text" />
-      </div>
-    </div>
-    */
   );
 };
 
