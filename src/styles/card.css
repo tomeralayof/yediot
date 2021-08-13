@@ -68,9 +68,12 @@
   .card-container {
     position: absolute;
     top: 40%;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-60%);
   }
   .card {
     background-color: rgb(245, 135, 135);
-    grid-template-rows: 2fr 0.2fr 0.1fr 0.1fr;
+    grid-template-rows: 1fr 0.2fr 0.1fr 0.1fr;
   }
 }
