@@ -1,0 +1,15 @@
+.main-container {
+  position: relative;
+  height: 50rem;
+  margin-bottom: 1rem;
+  width: 95rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    width: 95vw;
+  }
+}

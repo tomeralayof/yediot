@@ -1,0 +1,32 @@
+.input {
+  background-color: gray;
+  width: 30rem;
+  position: absolute;
+  top: 20%;
+}
+
+.input-container {
+  border: 1px solid black;
+  padding: 2rem;
+  direction: rtl;
+  display: grid;
+}
+
+.item.item2 > select {
+  width: 70%;
+}
+
+.item.item4 > input {
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .input {
+    background-color: purple;
+    margin: auto;
+    width: 95%;
+    position: absolute;
+    margin-left: 1.5rem;
+    top: 0%;
+  }
+}
