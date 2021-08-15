@@ -1,6 +1,6 @@
 .input {
   background-color: gray;
-  width: 30rem;
+  width: 40rem;
   position: absolute;
   top: 20%;
 }
@@ -13,14 +13,14 @@
 }
 
 .item.item2 > select {
-  width: 70%;
+  width: 100%;
 }
 
 .item.item4 > input {
-  width: 70%;
+  width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .input {
     background-color: purple;
     margin: auto;

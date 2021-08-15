@@ -11,11 +11,11 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Hebrew";
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
   color: black;
-  background-color: lightgray;
+  background: #edf1f5;
   box-sizing: border-box;
 }

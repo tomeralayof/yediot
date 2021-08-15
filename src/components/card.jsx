@@ -1,22 +1,21 @@
 import React from "react";
+import cardImage from "../images/landscape_207075.jpg";
+
 const Card = ({ category, backGround }) => {
   return (
-    <div className="card-container">
-      <div className="card">
-        <div className="card card-image"></div>
-
-        <div style={{ backgroundColor: `${backGround}` }} className="card-food">
-          <p>{category ? category : "אוכל"}</p>
-        </div>
-        <div className="title">
-          <strong>סיור קולינרי בין המסעדות הערביות הכי טובות בחיפה</strong>
-        </div>
-        <div className="text">
-          גם אני שעסוק כל השבוע , מתפנה לצפות בטלוויזיה מתפנה לצפות בטלוויזיה רק
-          בסופי השבוע ושכחתי שרוב הכניות הטלוויזיה בכל הערוצים הם אוכלx
-        </div>
-        <div className="author"> שרית גל</div>
+    <div className="componenta">
+      <img className="imgArea" src={cardImage} alt="" />
+      <div style={{ backgroundColor: `${backGround}` }} className="category">
+        <span>{category ? category : "אוכל"}</span>
       </div>
+      <div className="title">
+        סיור קולינרי בין המסעדות הערביות הכי טובות בחיפה
+      </div>
+      <div className="subTitle">
+        גם אני, שעסוק כל השבוע, מתפנה לצפות בטלוויזיה רק בסופי השבוע, ונוכחתי
+        שרוב תוכניות הטלוויזיה בכל הערוצים הן תוכניות אוכל.
+      </div>
+      <div className="author">שירית גל</div>
     </div>
   );
 };
