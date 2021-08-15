@@ -75,7 +75,6 @@
   transition: 2s;
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 @media (max-width: 1200px) {
   .componenta {
@@ -88,15 +87,6 @@
   }
   .subTitle {
     font-size: 1.09375vw;
-=======
-@media (max-width: 900px) {
-  .card-container {
-    position: absolute;
-    top: 35%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
->>>>>>> 9caaa4bf788015bd92155702c22f004299c02e0f
   }
   .category span {
     font-size: 1.5625vw;
