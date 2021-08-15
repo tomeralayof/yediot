@@ -91,4 +91,7 @@
   .category span {
     font-size: 1.5625vw;
   }
+   .author {
+    font-size: 0.9375vw;
+  }
 }
